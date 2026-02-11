@@ -1,0 +1,4 @@
+chieudai = float(input("Nhập chiều dài: "))
+chieurong = float(input("Nhập chiều rộng: "))
+dientich = chieudai * chieurong
+print ("Diện tích là: ", dientich)

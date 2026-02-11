@@ -1,0 +1,5 @@
+a = int(input("Nhập số nguyên a"))
+b = int(input("Nhập số nguyên b"))
+c = int(input("Nhập số nguyên c"))
+sotrungbinh = (a+b+c)/3
+print ("Số trung bình là",  sotrungbinh)

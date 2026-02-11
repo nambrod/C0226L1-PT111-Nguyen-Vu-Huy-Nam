@@ -1,0 +1,5 @@
+phut = int(input("Nhập số phút đã gọi: "))
+dongia = 1000
+thuebao = 20000
+sotien = (dongia*phut + thuebao)
+print ("số tiền phải trả: ", sotien)

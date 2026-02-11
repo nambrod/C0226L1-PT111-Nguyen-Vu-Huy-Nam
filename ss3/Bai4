@@ -1,0 +1,5 @@
+x = int(input("Nhập số nguyên x: "))
+y = int(input("Nhập số nguyên y: "))
+z = int(input("Nhập số nguyên z: "))
+phep = x*x + y*y + z*z*z
+print ("x^2 + y^2 + z^3 = ", phep)

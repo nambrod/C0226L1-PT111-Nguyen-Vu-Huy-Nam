@@ -1,0 +1,4 @@
+dongia = int(input("Nhập đơn giá (ngàn): "))
+soluong = int(input("Nhập số lượng: "))
+sotien = dongia * soluong
+print ("Số tiền nhận được là", sotien, "ngàn")

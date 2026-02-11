@@ -1,0 +1,8 @@
+ten = "Huy Nam"
+tuoi = 17
+sothich = "cờ vua"
+monhoc = "hóa"
+print ("Tên là:", ten)
+print ("Tuổi là:", tuoi)
+print ("Sở thích là:", sothich)
+print ("Môn học yêu thích là:", monhoc)
