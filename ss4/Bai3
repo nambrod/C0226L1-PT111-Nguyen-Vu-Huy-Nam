@@ -1,0 +1,4 @@
+x = float(input("Nhập tử số x: "))
+y = float(input("Nhập mẫu số y: "))
+a = x/y
+print ("Bạn đã nhập phân số a/b có kết quả đổi ra số thực =", a)

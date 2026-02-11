@@ -1,0 +1,4 @@
+a = float(input("Nhập số b: "))
+b = float(input("Nhập số b: "))
+phep = a ** b
+print ("a^b= ", phep)

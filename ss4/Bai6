@@ -1,0 +1,6 @@
+a = int(input("Nhập số có ba chữ số: "))
+so1 = a // 100
+so2 = (a%100) // 10
+so3 = ((a%100)%10)
+tong = so1 + so2 + so3
+print ("Tổng các số hạng: ", tong)

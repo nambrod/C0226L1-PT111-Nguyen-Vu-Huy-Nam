@@ -1,0 +1,5 @@
+bankinh = float(input("Nhập bán kính: "))
+chuvi = 2*3.14*bankinh
+dientich = 3.14*bankinh**2
+print ("Chu vi hình tròn là: ", chuvi)
+print ("Diện tích hình tròn là: ", dientich)

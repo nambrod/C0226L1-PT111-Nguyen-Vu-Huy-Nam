@@ -1,0 +1,7 @@
+tiengui = float(input("Nhập số tiền gửi: "))
+nam = int(input("Nhập số năm gửi: "))
+percent = float(input("Nhập số phần trăm (%): "))
+tong = tiengui * ((1 + percent/100)** nam)
+lai = tong - tiengui
+print ("Tổng tiền là: ", tong)
+print ("Tiền lãi là: ", lai)

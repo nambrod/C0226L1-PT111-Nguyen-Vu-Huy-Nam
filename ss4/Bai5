@@ -1,0 +1,6 @@
+a = int(input("Nhập số nguyên a: "))
+b = float(a)
+c = a/1 >0
+print ("Dạng string: ", a)
+print ("Dạng float: ", b)
+print ("Dạng boolean",c)
