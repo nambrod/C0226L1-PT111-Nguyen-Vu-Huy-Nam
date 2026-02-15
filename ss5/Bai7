@@ -1,0 +1,6 @@
+a = int(input("Nhập năm: "))
+if a % 4 == 0:
+    if a % 100 == 0 and a % 400 != 0:
+        print (a, "không phải năm nhuận")
+    else: print (a, "là năm nhuận")
+else: print(a, "không phải năm nhuận")

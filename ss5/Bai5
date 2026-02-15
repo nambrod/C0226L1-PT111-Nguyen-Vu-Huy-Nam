@@ -1,0 +1,9 @@
+a = int(input("Nhập điểm thi học sinh: "))
+if a >= 9:
+    print("Xếp loại A")
+elif 7 <= a <= 9:
+    print("Xếp loại B")
+elif 5 <= a <= 7:
+    print("Xếp loại C")
+elif a < 5:
+    print("Xếp loại D")

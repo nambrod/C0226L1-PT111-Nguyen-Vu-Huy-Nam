@@ -1,0 +1,5 @@
+n = int(input("Nhập số nguyên: "))
+if n % 2 == 0:
+    print("Số chẵn ")
+else: 
+    print("Số lẻ ")

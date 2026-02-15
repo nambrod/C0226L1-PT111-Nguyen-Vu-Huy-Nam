@@ -1,0 +1,8 @@
+a = int(input("Nhập chiều cao bạn Kha: "))
+b = int(input("Nhập chiều cao bạn Khang: "))
+if a > b:
+    print("Kha cao hơn Khang")
+elif b > a:
+    print("Khang cao hơn Kha")
+elif a == b:
+    print("Khang cao bằng Kha")

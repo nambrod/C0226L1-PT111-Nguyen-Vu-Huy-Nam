@@ -1,0 +1,4 @@
+a = int(input("Nhập số tuổi học sinh: "))
+if a >= 6:
+    print("Đã đủ tuổi lớp 1")
+else: print("Chưa đủ tuổi lớp 1")

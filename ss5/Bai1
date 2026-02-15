@@ -1,0 +1,6 @@
+a = int(input("Nhập số nguyên a: "))
+b = int(input("Nhập số nguyên b: "))
+if a % b == 0:
+    print("a chia hết cho b")
+else:
+    print("a không chia hết cho b")

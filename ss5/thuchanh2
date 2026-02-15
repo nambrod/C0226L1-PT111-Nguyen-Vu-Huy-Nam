@@ -1,0 +1,26 @@
+a = float(input("Nhập số thứ nhất: "))
+b = float(input("Nhập số thứ hai: "))
+op = input("Nhập phép toán (+,-,*,/,**,%,//) ")
+if op == "+":
+    print("Kết quả là: ", a+b)
+elif op == "-":
+    print("Kết quả là: ", a-b)
+elif op == "*":
+    print("Kết quả là: ", a*b)
+elif op == "**":
+    print("Kết quả là: ", a**b)
+elif op == "/":
+    if b != 0:
+        print("Kết quả là: ", a/b)
+    elif b == 0:
+        print("Kết quả không hợp lệ")
+elif op == "//":
+    if b != 0:
+        print("Kết quả là: ", a//b)
+    elif b == 0:
+        print("Kết quả không hợp lệ")
+elif op == "%":
+    if b != 0:
+        print("Kết quả là: ", a%b)
+    elif b == 0:
+        print("Kết quả không hợp lệ")
