@@ -1,0 +1,8 @@
+a = float(input("Nhập doanh thu (triệu): "))
+if a > 300:
+    b = a * 20 / 100
+elif 100 > a >= 300:
+    b = a * 10 / 100
+elif a <= 100:
+    b = a * 5 / 100
+print ("Hoa hồng là: ", b)

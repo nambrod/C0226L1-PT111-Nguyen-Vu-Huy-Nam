@@ -1,0 +1,9 @@
+a = float(input("Nhập số phút đã gọi :"))
+phi = 25
+if a <= 50:
+    cuoc = phi + a * 0.6
+elif 50 < a <= 200:
+    cuoc = phi + 50*0.6 + (a-50) * 0.4
+elif a > 200:
+    cuoc = phi + 50*0.6 + 150*0.4 + (a-200) * 0.2
+print ("Cước phí là:", cuoc, "nghìn")

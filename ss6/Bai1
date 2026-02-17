@@ -1,0 +1,10 @@
+a = float(input("Nhập lương nhân viên (triệu): "))
+if a > 15:
+    b = a * 30 / 100
+elif 7 >= a >= 15:
+    b = a * 20 / 100
+elif a < 7:
+    b = a * 10 / 100
+tiennhan = a - b
+print ("Thuế là: ", b)
+print ("Lương nhận được: ", tiennhan)

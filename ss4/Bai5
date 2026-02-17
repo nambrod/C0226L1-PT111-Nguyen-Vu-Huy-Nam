@@ -3,4 +3,4 @@ b = float(a)
 c = a/1 >0
 print ("Dạng string: ", a)
 print ("Dạng float: ", b)
-print ("Dạng boolean",c)
+print ("Dạng boolean: ",c)

@@ -1,0 +1,7 @@
+a = int(input("Nhập vào 1 số nguyên: "))
+if a % 15 == 0:
+    print ("Fizz-Buzz")
+elif a % 5 == 0:
+    print ("Buzz")
+elif a % 3 == 0:
+    print ("Fizz")
