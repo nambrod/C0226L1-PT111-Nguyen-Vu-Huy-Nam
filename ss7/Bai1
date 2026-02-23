@@ -1,0 +1,4 @@
+so = 1
+while so <= 200:
+    print(so)
+    so += 1

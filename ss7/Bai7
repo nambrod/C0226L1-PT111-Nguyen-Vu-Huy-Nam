@@ -1,0 +1,6 @@
+ten = input("Nhập họ và tên: ")
+i = 0
+for letter in ten:
+    if letter == "n":
+        i += 1
+print("Có", i, "chữ n")

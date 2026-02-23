@@ -1,0 +1,7 @@
+i = 1
+a = int(input("Nhập vào 1 số: "))
+tong = i
+for i in range(i, a, 1):
+    i = i + 1
+    tong = tong + i
+print("Tổng là: ", tong)

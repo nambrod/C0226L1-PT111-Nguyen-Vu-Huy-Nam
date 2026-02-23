@@ -1,0 +1,11 @@
+ten = input("Nhập họ và tên: ")
+chu = input("Nhập kí tự cần tìm: ")
+checked = False
+for letter in ten:
+    if chu == letter:
+        checked = True
+        break
+if checked == True:
+    print("Có kí tự", chu, "trong họ tên")
+else: 
+    print("Không có kí tự", chu, "trong họ tên")

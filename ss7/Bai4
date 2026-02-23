@@ -1,0 +1,6 @@
+so = 0
+x = int(input("Nhập một số nguyên: "))
+while x >= so:
+    if so % 3 == 0:
+        print("Số chia hết cho 3: ", so)
+    so += 1

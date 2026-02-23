@@ -1,0 +1,6 @@
+so = 1
+x = int(input("Hãy nhập một số nguyên dương: "))
+while x >= so:
+    if x % so == 0:
+        print("Ước của số là: ", so)
+    so += 1
