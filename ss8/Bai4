@@ -1,0 +1,13 @@
+import random
+a = int(input("Hãy chọn số bất kì trong 7 lần: "))
+b = random.randint(1,100)
+i = 1
+while i < 7:
+    if a == b:
+        print("Bạn đã đoán đúng")
+    else: 
+        print("Bạn đã đoán sai")
+        i += 1
+        a = int(input("Bạn hãy đoán lại: "))
+else:
+    print("Bạn đã thua")

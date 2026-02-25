@@ -1,0 +1,9 @@
+x = float(input("Nhập điểm môn học: "))
+checked = False
+while checked == False:
+    if 0 <= x <= 10:
+        print("Điểm môn học là:", x)
+        checked = True
+    else:
+        print ("Điểm môn học không hợp lệ. Vui lòng nhập lại.")
+        x = float(input("Nhập điểm môn học: "))
