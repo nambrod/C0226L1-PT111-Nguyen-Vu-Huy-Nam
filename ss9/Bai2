@@ -1,0 +1,9 @@
+a = int(input("Hãy nhập số nguyên dương: "))
+i = 2
+while i < a:
+    if a % i == 0:
+        print(a, "không phải là số nguyên tố")
+        break
+    i += 1
+else:
+    print(a, "là số nguyên tố")
