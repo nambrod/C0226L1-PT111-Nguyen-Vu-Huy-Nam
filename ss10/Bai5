@@ -10,3 +10,4 @@ for a in range(10):
             nghiem = a*100 + b*10 + c
             if nghiem == i:
                 print("Mật khẩu là:", nghiem)
+                break
