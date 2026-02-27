@@ -1,0 +1,11 @@
+chuoi = input("Hãy nhập chuỗi: ")
+count =0
+for i in range(int(len(chuoi)/2)):
+    if chuoi[i]==chuoi[len(chuoi)-1-i]:
+       count+=1
+    
+print(count)
+if count == int(len(chuoi)/2):
+    print("Chu doi xung")
+else: 
+    print("Chu khong doi xung")

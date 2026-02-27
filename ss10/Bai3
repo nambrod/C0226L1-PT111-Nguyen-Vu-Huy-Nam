@@ -1,0 +1,11 @@
+a = int(input("Hãy nhập một số nguyên: "))
+b = 1
+nghiem = 0
+while b < a:
+    if a % b == 0:
+        nghiem = nghiem + b
+    b += 1
+if nghiem == a:
+    print(a, "là số hoàn hảo")
+else:
+    print(a, "không phải là số hoàn hảo")

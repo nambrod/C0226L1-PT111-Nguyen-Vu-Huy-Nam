@@ -1,0 +1,19 @@
+a = int(input("Hãy nhập một số nguyên: "))
+j = int(input("Hãy nhập số nguyên thứ 2: "))
+b = 1
+c = 1
+nghiem1 = 0
+nghiem2 = 0
+while b < a:
+    if a % b == 0:
+        nghiem1 = nghiem1 + b
+    b += 1
+b = 1
+while b < j:
+    if j % b == 0:
+        nghiem2 = nghiem2 + b
+    b += 1
+if nghiem1 == j and nghiem2 == a:
+    print(a, "và", j, "là cặp số thân thiết")
+else:
+    print(a, "và", j, "không là cặp số thân thiết")

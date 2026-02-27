@@ -1,0 +1,12 @@
+import random
+i = random.randint(0, 1000)
+nghiem = 0
+a = 0
+b = 0
+c = 0
+for a in range(10): 
+    for b in range(10):
+        for c in range(10):
+            nghiem = a*100 + b*10 + c
+            if nghiem == i:
+                print("Mật khẩu là:", nghiem)
