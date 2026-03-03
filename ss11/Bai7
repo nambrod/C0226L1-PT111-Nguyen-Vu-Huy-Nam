@@ -1,0 +1,10 @@
+a = int(input("Nhập số nguyên a: "))
+def ham(i):
+    tong = 0
+    j = 0
+    while j <= i:
+        if j % 2 == 0:
+            tong = tong + i
+        j += 1
+    print(tong)
+ham(a)

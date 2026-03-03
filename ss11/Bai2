@@ -1,0 +1,11 @@
+import math
+a = int(input("Nhập bán kính hình tròn: "))
+b = 2
+def dientich(a,b):
+    S =  math.pi * pow(a,b)
+    print("Diện tích hình tròn là", S)
+def chuvi(a,b):
+    C =  math.pi * 2 * a
+    print("Chu vi hình tròn là", C)
+dientich(a,b)
+chuvi(a,b)

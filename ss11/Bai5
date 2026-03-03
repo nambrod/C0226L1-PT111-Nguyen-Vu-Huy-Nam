@@ -1,0 +1,6 @@
+a = int(input("Nhập số a: "))
+b = int(input("Nhập số b: "))
+c = int(input("Nhập số c: "))
+def check(i,j,k):
+    return min(i,j,k)
+print("Số nhỏ nhất là:", check(a,b,c))

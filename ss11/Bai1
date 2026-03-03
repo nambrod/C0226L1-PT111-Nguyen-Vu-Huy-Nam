@@ -1,0 +1,9 @@
+import math
+c = int(input("Nhập số nguyên a: "))
+d = 2
+def binhphuong(a,b):
+    result = math.pow(a,b)
+    print(a, "^ 2 =", result)
+    return result
+binhphuong(c,d)
+    

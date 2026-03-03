@@ -1,6 +1,6 @@
 a = int(input("Hãy nhập một số nguyên: "))
 j = int(input("Hãy nhập số nguyên thứ 2: "))
-b = 0
+b = 1
 nghiem1 = 0
 nghiem2 = 0
 while b < a:

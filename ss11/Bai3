@@ -1,0 +1,8 @@
+import math
+a = int(input("Nhập số nguyên a: "))
+b = 1
+def giai(a,b):
+    x = math.factorial(a)
+    print("Giai thừa của", a, "là", x)
+    return x
+giai(a,b)

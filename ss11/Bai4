@@ -1,0 +1,5 @@
+import math
+h = input("Nhập kí tự: ")
+def check(a):
+    return a.isdigit()
+print(check(h))
