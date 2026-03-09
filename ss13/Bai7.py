@@ -16,7 +16,7 @@ def phim2():
 def phim3():
     print("\n")
     y = input("Xóa tên bạn bè: ")
-    namelist.pop(y)
+    namelist.remove(y)
 def phim4():
     print("\n")
     a = input("Nhập tên muốn sửa: ")
